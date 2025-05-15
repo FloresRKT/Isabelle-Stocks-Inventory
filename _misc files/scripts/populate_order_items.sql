@@ -1,0 +1,24 @@
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (1, 1, 34, 2, 500);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (2, 1, 56, 1, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (3, 2, 104, 1, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (4, 2, 180, 2, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (5, 3, 54, 1, 500);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (6, 3, 67, 1, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (7, 4, 93, 1, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (8, 4, 112, 1, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (9, 5, 126, 2, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (10, 5, 203, 1, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (11, 6, 76, 1, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (12, 6, 198, 1, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (13, 7, 215, 2, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (14, 7, 189, 1, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (15, 7, 245, 1, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (16, 8, 312, 1, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (17, 8, 408, 1, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (18, 9, 104, 2, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (19, 9, 180, 2, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (20, 10, 215, 1, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (21, 10, 198, 1, 800);
+INSERT INTO order_items (order_item_id, order_id, inventory_id, quantity, unit_price) VALUES (22, 10, 168, 1, 600);
+
+ALTER SEQUENCE seq_order_item_id INCREMENT BY 22;

@@ -1,4 +1,4 @@
--- Example view showing products with their inventory details
+-- View showing products with their inventory details
 CREATE OR REPLACE VIEW vw_product_inventory AS
 SELECT 
     p.product_id, 

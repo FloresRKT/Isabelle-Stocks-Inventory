@@ -1,0 +1,12 @@
+INSERT INTO orders (order_id, user_id, order_date, delivery_date, status, total_amount, reference_number) VALUES (1, 1, TO_DATE('04-10-2025', 'MM-DD-YYYY'), TO_DATE('04-15-2025', 'MM-DD-YYYY'), 'DELIVERED', 1800, 'ORD-1000');
+INSERT INTO orders (order_id, user_id, order_date, delivery_date, status, total_amount, reference_number) VALUES (2, 2, TO_DATE('04-15-2025', 'MM-DD-YYYY'), TO_DATE('04-20-2025', 'MM-DD-YYYY'), 'DELIVERED', 2400, 'ORD-1001');
+INSERT INTO orders (order_id, user_id, order_date, delivery_date, status, total_amount, reference_number) VALUES (3, 3, TO_DATE('04-18-2025', 'MM-DD-YYYY'), TO_DATE('04-23-2025', 'MM-DD-YYYY'), 'DELIVERED', 900, 'ORD-1002');
+INSERT INTO orders (order_id, user_id, order_date, delivery_date, status, total_amount, reference_number) VALUES (4, 4, TO_DATE('04-25-2025', 'MM-DD-YYYY'), TO_DATE('04-30-2025', 'MM-DD-YYYY'), 'DELIVERED', 1600, 'ORD-1003');
+INSERT INTO orders (order_id, user_id, order_date, delivery_date, status, total_amount, reference_number) VALUES (5, 1, TO_DATE('05-01-2025', 'MM-DD-YYYY'), TO_DATE('05-06-2025', 'MM-DD-YYYY'), 'DELIVERED', 2200, 'ORD-1004');
+INSERT INTO orders (order_id, user_id, order_date, delivery_date, status, total_amount, reference_number) VALUES (6, 5, TO_DATE('05-05-2025', 'MM-DD-YYYY'), TO_DATE('05-10-2025', 'MM-DD-YYYY'), 'DELIVERED', 1000, 'ORD-1005');
+INSERT INTO orders (order_id, user_id, order_date, delivery_date, status, total_amount, reference_number) VALUES (7, 2, TO_DATE('05-07-2025', 'MM-DD-YYYY'), TO_DATE('05-12-2025', 'MM-DD-YYYY'), 'SHIPPED', 2800, 'ORD-1006');
+INSERT INTO orders (order_id, user_id, order_date, delivery_date, status, total_amount, reference_number) VALUES (8, 3, TO_DATE('05-09-2025', 'MM-DD-YYYY'), TO_DATE('05-14-2025', 'MM-DD-YYYY'), 'PROCESSING', 1500, 'ORD-1007');
+INSERT INTO orders (order_id, user_id, order_date, delivery_date, status, total_amount, reference_number) VALUES (9, 4, TO_DATE('05-12-2025', 'MM-DD-YYYY'), NULL, 'PENDING', 3200, 'ORD-1008');
+INSERT INTO orders (order_id, user_id, order_date, delivery_date, status, total_amount, reference_number) VALUES (10, 5, TO_DATE('05-14-2025', 'MM-DD-YYYY'), NULL, 'PENDING', 1800, 'ORD-1009');
+
+ALTER SEQUENCE seq_order_id INCREMENT BY 10;

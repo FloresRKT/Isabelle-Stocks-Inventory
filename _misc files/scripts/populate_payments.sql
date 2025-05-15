@@ -1,0 +1,12 @@
+INSERT INTO payments (payment_id, order_id, payment_date, payment_method, amount, payment_status, reference_number) VALUES (1, 1, TO_DATE('04-10-2025 14:32:15', 'MM-DD-YYYY HH24:MI:SS'), 'CREDIT_CARD', 1800, 'COMPLETED', 'PAY-1000');
+INSERT INTO payments (payment_id, order_id, payment_date, payment_method, amount, payment_status, reference_number) VALUES (2, 2, TO_DATE('04-15-2025 09:45:23', 'MM-DD-YYYY HH24:MI:SS'), 'GCASH', 2400, 'COMPLETED', 'PAY-1001');
+INSERT INTO payments (payment_id, order_id, payment_date, payment_method, amount, payment_status, reference_number) VALUES (3, 3, TO_DATE('04-18-2025 16:20:47', 'MM-DD-YYYY HH24:MI:SS'), 'BANK_TRANSFER', 900, 'COMPLETED', 'PAY-1002');
+INSERT INTO payments (payment_id, order_id, payment_date, payment_method, amount, payment_status, reference_number) VALUES (4, 4, TO_DATE('04-25-2025 11:05:36', 'MM-DD-YYYY HH24:MI:SS'), 'CREDIT_CARD', 1600, 'COMPLETED', 'PAY-1003');
+INSERT INTO payments (payment_id, order_id, payment_date, payment_method, amount, payment_status, reference_number) VALUES (5, 5, TO_DATE('05-01-2025 13:17:29', 'MM-DD-YYYY HH24:MI:SS'), 'PAYPAL', 2200, 'COMPLETED', 'PAY-1004');
+INSERT INTO payments (payment_id, order_id, payment_date, payment_method, amount, payment_status, reference_number) VALUES (6, 6, TO_DATE('05-05-2025 10:42:51', 'MM-DD-YYYY HH24:MI:SS'), 'BANK_TRANSFER', 1000, 'COMPLETED', 'PAY-1005');
+INSERT INTO payments (payment_id, order_id, payment_date, payment_method, amount, payment_status, reference_number) VALUES (7, 7, TO_DATE('05-07-2025 15:23:08', 'MM-DD-YYYY HH24:MI:SS'), 'GCASH', 2800, 'COMPLETED', 'PAY-1006');
+INSERT INTO payments (payment_id, order_id, payment_date, payment_method, amount, payment_status, reference_number) VALUES (8, 8, TO_DATE('05-09-2025 14:50:32', 'MM-DD-YYYY HH24:MI:SS'), 'CREDIT_CARD', 1500, 'COMPLETED', 'PAY-1007');
+INSERT INTO payments (payment_id, order_id, payment_date, payment_method, amount, payment_status, reference_number) VALUES (9, 9, TO_DATE('05-12-2025 17:38:45', 'MM-DD-YYYY HH24:MI:SS'), 'PAYPAL', 3200, 'PENDING', 'PAY-1008');
+INSERT INTO payments (payment_id, order_id, payment_date, payment_method, amount, payment_status, reference_number) VALUES (10, 10, TO_DATE('05-14-2025 12:27:19', 'MM-DD-YYYY HH24:MI:SS'), 'GCASH', 1800, 'PENDING', 'PAY-1009');
+
+ALTER SEQUENCE seq_payment_id INCREMENT BY 10;
